@@ -1,7 +1,8 @@
 import {combineReducers} from "redux";
 import GetCategories from './categories/getCategories'
-// import Images from './images/getImages'
+import GetImages from './images/getImages'
 
 export default combineReducers({
-    GetCategories
+    GetCategories,
+    GetImages
 })
