@@ -23,6 +23,7 @@
       .image{
         width: 100%;
         height: 100%;
+        object-fit: contain;
       }
     }
   }
@@ -44,8 +45,7 @@
 
       &:hover {
         color: #fff;
-        background: #ff6818e0;
-        border: none
+        background: #34495e;
       }
     }
   }

@@ -19,7 +19,6 @@ export default function reducer(state = initialState, action) {
                 error: false
             }
         case GET_IMAGES_SUCCESS:
-            console.log(action.payload);
             return {
                 ...state,
                 data: action.payload,
