@@ -5,5 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .home__title {
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+    }
   }
 }
